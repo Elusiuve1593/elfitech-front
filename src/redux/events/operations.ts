@@ -21,7 +21,7 @@ export const fetchEventsThunk = createAsyncThunk(
     dispatch(setPreloader({ set: true }));
     try {
       const res = await axios.get<EventsSlice>(
-        `http://localhost:3000/events?page=${param.page}&limit=${param.limit}`
+        `http://localhost:3000/?page=${param.page}&limit=${param.limit}`
       );
       dispatch(fetchEventsReducer({ data: res.data }));
     } catch (err: any) {
