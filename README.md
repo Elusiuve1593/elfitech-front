@@ -1,6 +1,6 @@
 # Run App
 
-To start the project, you need to follow the link https://github.com/Elusiuve1593/eliftech-back and download the repository by using the command [git clone 'url']. Navigate to the project directory and start the project by running the command [nest start --watch].
+To start the project, you need to follow the link https://github.com/Elusiuve1593/eliftech-back and download the repository by using the command [git clone 'url']. Navigate to the project directory and install dependencies [npm install] start the project by running the command [nest start --watch].
 
 Also, download this application, install dependencies [npm install], and then start the application by using the command [npm run dev].
 
